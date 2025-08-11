@@ -1,0 +1,118 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  color: #222;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+.main-header {
+  background: #4a90e2;
+  color: #fff;
+  padding: 24px 16px;
+  margin-bottom: 32px;
+  border-radius: 8px;
+  border: 2px solid #357ab8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header h1 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.nav-list a:hover {
+  background: #357ab8;
+}
+
+/* Card Sections */
+.card {
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  padding: 24px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.card h2 {
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 16px;
+}
+
+/* Button Styling */
+.cta-btn {
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  background: #357ab8;
+}
+
+#box-model {
+  background: rgba(74, 144, 226, 0.1);
+  padding: 12px;
+  border: 1px dashed #4a90e2;
+}
+
+#para2 {
+  background: rgba(74, 144, 226, 0.1);
+  padding: 12px;
+  border: 1px dashed #4a90e2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #444;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+/* Footer */
+.main-footer {
+  margin-top: 40px;
+  padding: 16px;
+  background: #222;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #444;
+}
+
+/* Demonstrate Box Model */
+.card,
+.main-header,
+.main-footer {
+  /* Visualize box boundaries */
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.08);
+}
